@@ -124,22 +124,22 @@ Click the "New Game" button to restart at any time.
 The application follows a clean, modular architecture with separation of concerns:
 
 ```
-app/                    # Next.js app directory
+src/app/                    # Next.js app directory
 ├── layout.tsx         # Root layout
 ├── page.tsx           # Main game page
 └── globals.css        # Global styles
 
-components/            # React components
+src/components/            # React components
 ├── game-board.tsx    # Board and tile rendering
 ├── game-controls.tsx # Score and controls UI
 ├── game-status.tsx   # Win/lose modals
 ├── mobile-controls.tsx # Touch controls
 └── ui/               # Shadcn UI components
 
-hooks/                # Custom React hooks
+src/hooks/                # Custom React hooks
 └── use-game.ts       # Game state management
 
-lib/                  # Core logic
+src/lib/                  # Core logic
 ├── game-logic.ts     # Pure game logic functions
 └── utils.ts          # Utility functions
 ```

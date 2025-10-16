@@ -37,4 +37,5 @@ yarn-error.log*
 next-env.d.ts
 
 # developer notes
-.IMPLEMENTATION_GUIDE
+*.md
+!README.md
